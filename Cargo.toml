@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "src/libs/algebra-matrix2x2",
+    "src/libs/arithmatic",
+    "src/libs/empty"
+]
+
+[profile.release]
+lto = true
