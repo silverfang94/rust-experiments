@@ -1,0 +1,1 @@
+C:\Users\Silver\Desktop\WebAssembly\rust-experiments\rust-wasm\target\wasm32-unknown-unknown\release\librust_calculate.rlib: C:\Users\Silver\Desktop\WebAssembly\rust-experiments\rust-wasm\src\lib.rs C:\Users\Silver\Desktop\WebAssembly\rust-experiments\rust-wasm\src\utils.rs
