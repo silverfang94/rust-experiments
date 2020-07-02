@@ -12,5 +12,5 @@ Cargo.lock
 */pkg/
 
 # Js files
-node_modules
-dist
+*/node_modules
+*/dist
