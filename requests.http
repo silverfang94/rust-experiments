@@ -1,0 +1,37 @@
+#################
+### Employees
+###################
+
+### Get all employees 
+GET http://localhost:5000/employees
+
+### Get single employee
+GET http://localhost:5000/employees/2
+
+### Create employee
+POST http://localhost:5000/employees
+Content-Type: application/json
+
+{
+    "firstname": "John",
+    "lastname": "Silver",
+    "department": "IT",
+    "salary": 10000,
+    "age": 26
+}
+
+### Update employee
+PUT http://localhost:5000/employees/1
+Content-Type: application/json
+
+{
+    "firstname": "Dead",
+    "lastname": "Pirate",
+    "department": "Ship",
+    "salary": 0,
+    "age": 26
+}
+
+### Delete employee
+DELETE http://localhost:5000/employees/1
+
